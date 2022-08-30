@@ -1,0 +1,42 @@
+
+  h1{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: xx-large;
+    /* text-align: center; */
+  }
+  .username{
+    color:red;
+  }
+  #email{
+    color: darkblue;
+  }
+  tr:hover{
+    color: blue;
+    background-color: aqua;
+  }
+
+  body{
+    background-image: url('E:\\HTML\green.jpg');
+  }
+  
+
+  h1{
+    padding: 20px 10px;
+    border: 1px thick red;
+    margin: 20px;
+  }
+
+  .box{
+    border:1px solid red;
+    height:100px;
+    width:200px;
+  }
+
+  div > p {
+    color: red;
+  }
+  
+
+ 
