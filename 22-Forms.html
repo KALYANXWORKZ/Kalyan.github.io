@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Properties</title>
+</head>
+<body bgcolor="lightgreen">
+    <center>
+        <font size="7" color="red">
+Application Form 
+        </font>
+        <hr size="5" color="blue" width="400">
+    </center>
+
+    <form action="f1">
+        <table align="center">
+
+            <tr>
+                <td>Username</td>
+                <td> <input type="text" name="t1" size="20" maxlength="20"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="t2" size="20" maxlength="20"></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="text" name="t2" size="20" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="r1">Male
+                <input type="radio" name="r1">Female
+                <input type="radio" name="r1">Others    
+                </td> 
+            </tr>
+
+            <tr>
+                <td>Category</td>
+                <td><input type="radio" name="c">GM
+                    <input type="radio" name="c">OBC
+                    <input type="radio" name="c">3A
+                    <input type="radio" name="c">2A
+                </td>
+            </tr>
+
+            <tr>
+                <td>Languages</td>
+                <td><input type="checkbox" name="l">English
+                    <input type="checkbox" name="l">Kannada
+                    <input type="checkbox" name="l">Hindi
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea name="a" id="ad" cols="20" rows="5">
+                </textarea></td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td><select name="c">
+                    <option> ----select city----
+                    <option> Bangalore
+                    <option> Mysore
+                    <option> Dharwad
+                    <option> Mandya
+                    <option> Tumkur
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of birth</td>
+                <td> <input type="date">
+                </td>     
+            </tr>
+
+            <tr>
+                <td>Resume</td>
+                <td><input type="file" name="r">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="s" value="Register">
+                    <input type="reset" name="r" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
