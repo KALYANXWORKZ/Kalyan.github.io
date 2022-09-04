@@ -28,7 +28,39 @@
 
         function display(){
             console.log("calling display")
+            var displayMessage=
+            document.getElementById("message")
+            console.log(displayMessage)
+            displayMessage.innerHTML="calling display"
         }
+
+        function addition(){
+            console.log("calling addition")
+            var firstElement=
+            document.getElementById("number1")
+            console.log(firstElement)
+            console.log(firstElement.value)
+
+            var secondElement=
+            document.getElementById("number2")
+            console.log(secondElement)
+            console.log(secondElement.value)
+
+            var result=parseInt(firstElement.value)+parseInt(secondElement.value)
+            var output = document.getElementById("addMessage")
+            console.log(output)
+            output.innerHTML=result
+        }
+
+        function register() {
+            var username=document.getElementById("username")
+            console.log(username.value)
+            console.log(username.value.length)
+            if (username.value.length =='') {
+              console.log("Please Enter username")  
+            }
+        }
+
 
     </script>
 
@@ -38,6 +70,29 @@
     <h1>Introduction to JavaScript</h1>
     <button onclick="display()">Display</button>
     <button onmouseover="display()">Torisu</button>
+    
+    <form action="">
+        <div>
+            <label>Enter Number1</label>
+            <input type="text" name="num1" id="number1">
+        </div>
+        <div>
+            <label>Enter Number2</label>
+            <input type="text" name="num2" id="number2">
+        </div>
+        <button type="button" onclick="addition()">Addition</button>
+        <div id="addMessage"></div>
+
+    </form>
+
+    <form>
+        <div>
+            <label>Enter Username</label>
+            <input type="text" name="username" id="username">
+            <div id="usernameMessage"></div>
+        </div>
+        <button type="button" onclick="register()">Register</button>
+    </form>
 
 
 
@@ -49,6 +104,16 @@
         3-Boolean
         4-undefined
         5-null
+
+
+        03-09-2022   - saturday
+        ------------------------
+
+        HTML DOM
+
+
+
+
     -->
 </body>
 </html>
