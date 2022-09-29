@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="shortcut icon" href="./odc.png" type="image/x-icon">
+
+</head>
+<body bgcolor="yellow" align="left">
+    <h1>--- Registration Form ---</h1>
+    <form action="./login.html">
+        <input type="text" placeholder="USERNAME" required maxlength="20" minlength="6" ><br><br>
+        <input type="password" placeholder="PASSWORD"><br><br>
+        <input type="email" placeholder="Enter valid email"><br><br>
+        <input type="url" placeholder="Enter valid url"><br><br>
+        <input type="number" placeholder="Phone No"><br><br>
+
+        <label>Aadhar card:</label>
+        <input type="file"><br><br>
+
+        <label >Gender :</label>
+        <input type="radio" name="b">Male
+        <input type="radio" name="b">Female
+        <input type="radio" name="b">Others <br><br>
+
+        <label >Skills  :  </label>
+        <input type="checkbox">JAVA
+        <input type="checkbox">HTML
+        <input type="checkbox">CSS
+        <input type="checkbox">JAVASCRIPT
+        <input type="checkbox">HIBERNATE
+        <input type="checkbox">SPRING <br><br>
+
+        <label>Select your state :</label>
+        <select >
+            <option >---SELECT---</option>
+            <option >KARNATAKA</option>
+            <option >ANDRAPRADESH</option>
+            <option >TELANGANA</option>
+            <option >KERALA</option>
+            <option >DELHI</option>
+            <option >MAHARASTRA</option>
+        </select><br><br>
+
+        <label>Date of birth :</label>
+        <input type="date">
+        
+        <label>Time : </label>
+        <input type="time"> <br><br>
+
+        <textarea placeholder="Enter your Address" cols="30" rows="5"></textarea>
+
+        <br><br>
+        
+        <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+    
+   </form>
+</body>
+</html>
